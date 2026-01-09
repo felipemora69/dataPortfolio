@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+#Felipe Mora — Data Analytics & BI Portfolio
+Welcome to my data analytics portfolio. This repository showcases end‑to‑end analytical projects built with Python, Power BI, SQL, and Excel, highlighting my ability to transform raw data into clear insights, dashboards, and business recommendations.
+My work focuses on data‑driven decision‑making, predictive modeling, and visual storytelling, supported by strong technical documentation and bilingual communication (English/Spanish).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**About Me**
+- Data Analyst with a background in Software Development and Business Administration
+- Skilled in Python (pandas, NumPy, scikit‑learn), SQL, Power BI, and Excel
+- Passionate about dashboard design, KPI tracking, and analytics workflows
+- Experienced in ETL, data modeling, and technical storytelling
+- Bilingual communicator able to tailor insights for diverse audiences
 
-## Available Scripts
+**Portfolio Projects**
 
-In the project directory, you can run:
+**Python Projects**
+Projects focused on data cleaning, exploratory analysis, and predictive modeling.
+- Customer Churn Prediction
+Machine learning model using scikit‑learn to predict churn and identify key drivers.
+- Sales Forecasting with Time Series
+ARIMA/Prophet models to forecast demand and optimize inventory planning.
+- Data Cleaning & Automation Scripts
+ETL workflows using pandas to automate repetitive business processes.
 
-### `npm start`
+**Power BI Dashboards**
+Interactive dashboards designed for business intelligence and decision‑making.
+- Sales & Conversion Funnel Dashboard
+Weekly and monthly conversion analysis, advisor performance, and marketing channel effectiveness.
+- Customer Behavior & Segmentation Dashboard
+Insights into customer profiles, purchase patterns, and retention metrics.
+- Operational KPI Dashboard
+Real‑time tracking of visits, leads, conversion rates, and discard reasons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Excel Projects**
+Advanced Excel models for financial analysis and operational reporting.
+- Dynamic Financial Model
+Scenario analysis, sensitivity testing, and automated KPI calculations.
+- Sales Tracker with PivotTables
+Automated reporting using formulas, pivot tables, and conditional formatting.
+- Data Cleaning & Validation Templates
+Tools for ensuring data accuracy and consistency across teams.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**SQL Projects**
+SQL queries and database workflows for analytics and reporting.
+- Customer & Sales Analysis
+Joins, aggregations, and window functions to extract insights from relational data.
+- ETL & Data Quality Checks
+Stored procedures, triggers, and validation rules for clean, reliable datasets.
+- Marketing Attribution Queries
+Channel performance analysis using CTEs and segmentation logic.
 
-### `npm test`
+**Skills & Tools**
+ Programming: Python, SQL
+ BI & Visualization: PowerBI, Excel
+ Machine Learning: scikit‑learn, NumPy, pandas
+ Data Engineering: ETL workflows, data modeling
+ Communication: Bilingual reporting (EN/ES), technical documentation
+ Version Control: Git & GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Purpose of This Portfolio**
+This repository demonstrates my ability to:
+- Analyze complex datasets
+- Build predictive and descriptive models
+- Design dashboards that communicate insights clearly
+- Automate workflows and improve data quality
+- Translate data into actionable business recommendations
 
-### `npm run build`
+**Contact**
+If you'd like to collaborate or learn more about my work:
+Email: felipemora.dev@gmail.com
+LinkedIn: linkedin.com/in/felipemora
+GitHub: github.com/felipemora69
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LinkedIn: linkedin.com/in/felipemora
+GitHub: github.com/felipemora69
