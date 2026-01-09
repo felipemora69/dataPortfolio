@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Sansita:wght@400;700&display=swap');
+
+:root {
+  --primary: #2C8780;
+  --dark: #1D1D2C;
+  --light: #B2CAC9;
+  --background: #E8F2F5;
+  --highlight: #72F1DC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sansita', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +48,216 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* -------------------------- Header section styles */
+
+:root {
+  --primary: #2C8780;
+}
+
+.header-custom {
+  background-color: var(--primary);
+  padding: 0.75rem 2rem;
+  color: white;
+}
+
+.header-logo {
+  width: 50px;
+}
+
+.header-center {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.header-right {
+  font-size: 0.9rem;
+}
+
+
+/* -------------------------- Hero section styles */
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-section {
+  background-color: var(--background);
+  padding: 50px 130px 0 140px;
+}
+
+@keyframes fadeInCustom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-custom {
+  animation-name: fadeInCustom;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.hover-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* -------------------------- Aboutme section styles */
+
+.about-sec {
+  padding-left: 70px;
+}
+
+.img-about{
+  width: 520px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hover-zoom {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-zoom:hover {
+  transform: scale(0.95);
+}
+
+.about-me-text {
+  background-color: var(--light);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+/* -------------------------- tools section styles */
+
+.tools-sec {
+  padding: 0 140px 0 140px;
+}
+
+/* -------------------------- See more button styles */
+
+.see-more-text {
+  background-color: #5C6BC0;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #5C6BC0;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.see-more-text {
+  --width: 120px;
+  --timing: 2s;
+  border: 0;
+  width: var(--width);
+  padding-block: 0.6em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8em;
+  background: var(--primary);
+  transition: all 0.2s;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.see-more-text:hover {
+  background-image: linear-gradient(
+  to right,
+    rgb(44, 135, 128),
+    rgb(44, 135, 128) 16.65%,
+    rgb(29, 29, 44) 16.65%,
+    rgb(29, 29, 44) 33.3%,
+    rgb(178, 202, 201) 33.3%,
+    rgb(178, 202, 201) 49.95%,
+    rgb(232, 242, 245) 49.95%,
+    rgb(232, 242, 245) 66.6%,
+    rgb(131, 241, 220) 66.6%,
+    rgb(131, 241, 220) 83.25%,
+    rgba(5, 250, 78, 0.822) 83.25%,
+    rgb(5, 250, 78, 0.822) 100%,
+    rgb(44, 135, 128) 100%    
+  );
+  animation: var(--timing) linear dance6123 infinite;
+  transform: scale(1.1) translateY(-1px);
+  color: var(--dark);
+}
+
+@keyframes dance6123 {
+  to {
+    background-position: var(--width);
+  }
+}
+
+/* -------------------------- See more button styles */
+
+.footer-sec {
+  background-color: var(--primary);
+}
+
+/* -------------------------- Back button styles */
+
+.btn-custom {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* -----------------Mobile size */
+
+
+@media (max-width: 768px) {
+  .about-me {
+    padding: 20px;
+  }
+
+  .about-me p {
+    font-size: 1..125rem;
+    line-height: 1.6;
+  }
+
+  .about-me img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+  }
+
+  .about-me-text {
+    padding: 1rem;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .aboutme-img{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 0;
+  }
+  
+  .hero-img {
+    width: 115px;
   }
 }
