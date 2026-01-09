@@ -6,7 +6,7 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "Retail Sales Analysis & Business Insights",
+      title: "Retail Sales Analysis Insights",
       image: "/images/sales.png",
       intro: "Retail sales analysis in Python providing trends, top‑performing products, seasonality patterns, and growth opportunities. The project delivers insights on KPIs, customer behavior, channel performance, and promotional impact to support data‑driven decisions in sales strategy, inventory planning, and marketing optimization.",
       link: "https://github.com/felipemora69/Project_Sales_Analysis/blob/main/Project_Sales/Sales_Trends_Portfolio.ipynb"
