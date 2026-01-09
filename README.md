@@ -1,4 +1,4 @@
-#Felipe Mora — Data Analytics & BI Portfolio
+# Felipe Mora — Data Analytics & BI Portfolio
 Welcome to my data analytics portfolio. This repository showcases end‑to‑end analytical projects built with Python, Power BI, SQL, and Excel, highlighting my ability to transform raw data into clear insights, dashboards, and business recommendations.
 My work focuses on data‑driven decision‑making, predictive modeling, and visual storytelling, supported by strong technical documentation and bilingual communication (English/Spanish).
 
