@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         {/* Location and Contact */}
-        <p className="mb-2">Located in Calgary, AB from Colombia</p>
+        <p className="mb-2">Located in Calgary, AB from Colombia with love</p>
         <p className="mb-4">+1 (403) 714-6577</p>
 
         {/* Social Icons */}

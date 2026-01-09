@@ -6,21 +6,21 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "Retail Sales Analysis & Business Insights",
+      title: "Global Profit Analysis of Retail Products",
       image: "/images/sales.png",
-      intro: "Monthly Commercial Management Report tracking prospects, sales effectiveness, and conversion metrics per salesperson and customer channel, including reasons for purchase or non-purchase and average sales performance.",
+      intro: "A Power BI dashboard that analyzes global profit performance across continents, product types, and categories using a three‑table data model. The project includes DAX‑based KPIs, standardized region and date fields, and Power Query transformations that enable dynamic filtering and clear financial insights.",
       link: "/RetailSales"
     },
     {
       title: "Global Video Game Sales Analysis & Market Insights",
       image: "/images/video.png",
-      intro: "Monthly Commercial Management Report tracking prospects, sales effectiveness, and conversion metrics per salesperson and customer channel, including reasons for purchase or non-purchase and average sales performance.",
+      intro: "A Power BI dashboard that visualizes historical video game sales by year and region using a cleaned, standardized sales table and a simple DAX measure for global sales. It includes KPI cards, trend charts, continent‑level distribution, and slicers for year, genre, platform, and publisher to explore game‑level performance.",
       link: "/VideoGames"
     },
     {
       title: "Fragrance Sales & Product Performance Dashboard",
       image: "/images/perfume.png",
-      intro: "Monthly Commercial Management Report tracking prospects, sales effectiveness, and conversion metrics per salesperson and customer channel, including reasons for purchase or non-purchase and average sales performance.",
+      intro: "A Power BI dashboard that highlights fragrance sales performance across brands and categories, using cleaned and standardized data to reveal revenue trends, top products, and opportunities to optimize sales and inventory.",
       link: "/"
     }
   ];

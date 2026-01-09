@@ -8,13 +8,13 @@ const Projects = () => {
     {
       title: "SKS National Bank – SQL Database Design & Management",
       image: "/images/bank.png",
-      intro: "Monthly Commercial Management Report tracking prospects, sales effectiveness, and conversion metrics per salesperson and customer channel, including reasons for purchase or non-purchase and average sales performance.",
+      intro: "A SQL database designed to manage core banking operations, including customer accounts, employee records, loan processing, and branch management. The system organizes customer data, supports loan applications and repayments, tracks employee roles and hierarchy, and maintains branch relationships to ensure efficient and reliable banking workflows.",
       link: "https://github.com/felipemora69/SKSNationalBank"
     },
     {
       title: "Music Store Inventory System",
       image: "/images/shop.png",
-      intro: "Monthly Commercial Management Report tracking prospects, sales effectiveness, and conversion metrics per salesperson and customer channel, including reasons for purchase or non-purchase and average sales performance.",
+      intro: "A SQL project that manages a music store’s inventory and orders using stored procedures, functions, triggers, and indexing to enforce business rules, maintain data integrity, and improve performance.",
       link: "https://github.com/felipemora69/MusicStore-DB/tree/main"
     }
   ];

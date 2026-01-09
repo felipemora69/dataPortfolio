@@ -129,14 +129,14 @@ const Portfolio = () => {
                     Hi, I'm Felipe.
                   </p>
                   <p className="mb-1 text-justify font-light">
-                  I'm currently in my last semester of a Software Development diploma at Bow Valley College. With a Bachelor of Business Administration and 6 years of experience managing multiple responsibilities, I am passionate about coding, problem-solving, and continuous learning. I specialize in web development, focusing on user experience, responsive design, and performance optimization.
+                  I recently completed my Software Development diploma at Bow Valley College. With a Bachelor of Business Administration and 6 years of experience in data analysis and BI, I am passionate about analytics, problem solving, and continuous learning. I specialize in transforming data into insights, focusing on dashboard development, data modeling, and performance reporting.
                     {/* Truncated text */}
                     {showFullText && (
                       <>
                         <br />
-                        My expertise includes data visualization, project management, and creating user-friendly, data-driven web interfaces. I have strong data analytics skills, with experience in market research, trend analysis, and predictive insights. I also have a solid background in improving data workflows to ensure accuracy and consistency in many industries.
+                        I value strong relationships and a positive work environment, where collaboration and trust lead to better outcomes. I’m known for clear communication and building strong connections with teammates and stakeholders.
                         <br />
-                        Beyond technology, I am passionate about art and design, believing that logos, images, and graphics can communicate culture, identity, and user interaction like a work of art.
+                        Beyond technology, I am passionate about art and design, believing that logos, images, and graphics can communicate culture, identity, and user interaction like a work of art. I also enjoy collecting vinyl records, and exploring new craft beers.
                       </>
                     )}
                   </p>
