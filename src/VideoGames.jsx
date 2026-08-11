@@ -10,6 +10,14 @@ const VideoGames = () => {
       <Header />
       <div className="container my-5">
         <h1 className="mb-4">Global Video Game Sales Analysis & Market Insights</h1>
+        <h2>Overview</h2>
+        <p className="text-justify">
+          This project presents a comprehensive analysis of global video game sales from 1980 to 2017, exploring market behavior across regions, platforms, genres, and publishers. 
+          The dashboard was designed using Microsoft Power BI and includes Page Navigation for a multi‑page analytical experience, dynamic interactions, and on‑hover visual effects to enhance user exploration.
+        </p>
+        <p>
+          GitHub repository: <a href="https://github.com/felipemora69/Videogames_Sales_PowerBi" target="_blank" rel="noopener noreferrer">https://github.com/felipemora69/Videogames_Sales_PowerBi</a>
+        </p>
 
         {/* Goals Section */}
         <section className="mb-5">
@@ -30,12 +38,10 @@ const VideoGames = () => {
             This project was built using Microsoft Power BI and a historical dataset of global video game sales. 
             The data includes game titles, release years, genres, platforms, publishers, regions, and total sales in billions.
           </p>
-          <p>
-            GitHub repository: <a href="https://github.com/felipemora69/Videogames_Sales_PowerBi" target="_blank" rel="noopener noreferrer">https://github.com/felipemora69/Videogames_Sales_PowerBi</a>
-          </p>
+          
           <div className="mb-3">
             <img 
-              src="/images/sample1.png" 
+              src="/images/Model.png"
               alt="Project Setup" 
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "cover" }}
@@ -47,7 +53,7 @@ const VideoGames = () => {
         <section className="mb-5">
           <h2>Analysis</h2>
           <p className="text-justify">
-            The dashboard analyzes total sales by region, genre, platform, and year. It highlights top-selling games, dominant platforms, and regional preferences. 
+            The dashboard analyzes total sales by region, genre, platform, and year. It highlights top-selling games, dominant platforms, historical performance trends, and regional preferences. 
             Key metrics include total global sales, sales distribution by region, and performance trends over time.
           </p>
         </section>
@@ -61,7 +67,7 @@ const VideoGames = () => {
           </p>
           <div className="mb-3">
             <img 
-              src="/images/sample2.png" 
+              src="/images/Table.png" 
               alt="Data Exploration" 
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "cover" }}
@@ -72,8 +78,27 @@ const VideoGames = () => {
         {/* Images Section */}
         <section className="mb-5">
           <h2>Visualizations</h2>
+          <p className="text-justify">
+            This project uses Page Navigation to organize insights into multiple analytical pages. 
+            Each page includes dynamic on‑hover effects, interactive filters, cross‑highlighting, and responsive visuals.
+          </p>
+          <p className="text-justify">
+            Home page has KPI cards with peak years and top publishers to provide a macro view of the market.
+          </p>
           <div className="d-flex justify-content-between flex-wrap gap-3">
-            <img src="/images/sample3.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+            <img src="/images/Home.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+          </div>
+          <p className="text-justify">
+            Reporting page has game‑level drill‑down to identify market leaders and historical hits. on top games and platforms.
+          </p>
+          <div className="d-flex justify-content-between flex-wrap gap-3">
+            <img src="/images/Insights.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+          </div>
+          <p className="text-justify">
+            Insights page has regional genre preferences to understand consumer tastes and genre evolution through the genre performance.
+          </p>
+          <div className="d-flex justify-content-between flex-wrap gap-3">
+            <img src="/images/Data.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
         </section>
 
@@ -81,8 +106,8 @@ const VideoGames = () => {
         <section className="mb-5">
           <h2>Key Findings</h2>
           <ul className="text-justify">
-            <li>North America leads in total video game sales, followed by Europe and Japan.</li>
-            <li>Sports, Platformers, and Racing are the top-selling genres globally.</li>
+            <li>North America leads global video game sales, followed by Europe and Japan.</li>
+            <li>Sports, Platformers, and Racing are the top-selling genres worldwide.</li>
             <li>Wii and NES platforms dominate historical sales, with titles like Wii Sports and Super Mario Bros. leading the charts.</li>
             <li>Sales peaked between 2006 and 2010, driven by blockbuster releases and platform popularity.</li>
             <li>Publishers like Nintendo and Ubisoft show strong regional performance, with genre specialization influencing success.</li>
@@ -93,8 +118,8 @@ const VideoGames = () => {
         <section className="mb-5">
           <h2>Recommendations</h2>
           <ul className="text-justify">
-            <li>Focus future game development on high-performing genres and platforms with proven market demand.</li>
-            <li>Leverage regional preferences to tailor marketing and release strategies by continent.</li>
+            <li>Focus future game development on high-performing genres and platforms with proven demand.</li>
+            <li>Tailor marketing strategies to regional preferences.</li>
             <li>Use historical sales trends to forecast demand and optimize release timing.</li>
             <li>Analyze publisher performance to identify strategic partnerships and licensing opportunities.</li>
           </ul>
