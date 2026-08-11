@@ -20,7 +20,7 @@ Data analysis of Calgary’s public transit performance, identifying bottlenecks
 1. Global Profit Analysis of Retail Products
 Interactive dashboard analyzing global retail profitability, product performance, regional trends, and margin optimization opportunities.
 2. Global Video Game Sales Analysis & Market Insights
-Comprehensive BI dashboard exploring global video game sales, platform performance, genre trends, and market behavior across regions.
+Comprehensive BI dashboard exploring global video game sales, platform performance, genre trends, and market behavior across regions. Includes technical documentation, data modeling, and custom DAX measures.
 
 **Excel Projects**
 1. Marketing and Business Management (Real Experience)
