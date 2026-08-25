@@ -81,15 +81,31 @@ const RetailSales = () => {
         {/* Images Section */}
         <section className="mb-5">
           <h2>Visualizations</h2>
+          <p className="text-justify">
+            This project uses Page Navigation to organize insights into multiple analytical pages. 
+            Each page includes dynamic on hover effects, interactive filters, cross highlighting, and responsive visuals.
+          </p>
+          <p className="text-justify">
+            Provides a quick overview of the project, its goals, and what the user can explore in the report.
+          </p>
           <div className="d-flex justify-content-between flex-wrap gap-3">
             <img src="/images/rs1.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
+          <p className="text-justify">
+            Shows financial trends across years and quarters, highlighting income, expenses, profit, and margin behavior.
+          </p>
           <div className="d-flex justify-content-between flex-wrap gap-3">
             <img src="/images/rs3.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
+          <p className="text-justify">
+            Provides a focused view of product and country performance, showing top profit items, profit by product type, country income levels, and margin differences across product categories.
+          </p>
           <div className="d-flex justify-content-between flex-wrap gap-3">
             <img src="/images/rs4.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
+          <p className="text-justify">
+            Provides a quick overview of the project, its goals, and what the user can explore in the report.
+          </p>
           <div className="d-flex justify-content-between flex-wrap gap-3">
             <img src="/images/rs5.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
