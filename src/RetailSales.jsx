@@ -10,6 +10,14 @@ const RetailSales = () => {
       <Header />
       <div className="container my-5">
         <h1 className="mb-4">Global Retail Sales Analysis Report</h1>
+        <h2>Overview</h2>
+        <p className="text-justify">
+          This report provides a comprehensive analysis of global retail financial performance across continents, product types, and time periods. 
+          It evaluates income, expenses, profit, and margin behavior, highlighting geographic disparities, product profitability, and seasonal trends. Interactive visuals support strategic decision making by revealing high performing regions, efficient product lines, and quarterly growth patterns.
+        </p>
+        <p>
+          GitHub repository: <a href="https://github.com/felipemora69/Retail_Sales_PowerBi" target="_blank" rel="noopener noreferrer">https://github.com/felipemora69/Videogames_Sales_PowerBi</a>
+        </p>
 
         {/* Goals Section */}
         <section className="mb-5">
@@ -28,14 +36,14 @@ const RetailSales = () => {
           <h2>Setup</h2>
           <p className="text-justify">
             This project was built using Power BI and sample retail data covering product sales, income, and expenses across multiple regions and years. 
-            The data model includes relationships between product categories, financial metrics, and geographic dimensions.
+            The data model links product categories with financial and geographic metrics, enabling dynamic filtering, drill‑through analysis, and multi‑level comparisons.
           </p>
           <p>
             GitHub repository: <a href="https://github.com/felipemora69/Retail_Sales_PowerBI" target="_blank" rel="noopener noreferrer">https://github.com/felipemora69/Retail_Sales_PowerBI</a>
           </p>
           <div className="mb-3">
             <img 
-              src="/images/S2-RS.png" 
+              src="/images/rs2.png" 
               alt="Project Setup" 
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "cover" }}
@@ -47,9 +55,9 @@ const RetailSales = () => {
         <section className="mb-5">
           <h2>Analysis</h2>
           <p className="text-justify">
-            The dashboard analyzes income, expenses, and profit across continents, regions, and product types. 
-            It highlights margin trends, identifies high-performing areas, and compares recovery patterns post-pandemic. 
-            Key metrics are segmented by year, quarter, and geography to support operational planning and strategic forecasting.
+            The dashboard evaluates income, expenses, profit, and margin across continents, regions, and product types. 
+            It highlights margin trends, identifies high performing markets, and compares quarterly recovery patterns. 
+            Metrics are segmented by year, quarter, and geography to support operational planning and strategic forecasting.
           </p>
         </section>
 
@@ -62,7 +70,7 @@ const RetailSales = () => {
           </p>
           <div className="mb-3">
             <img 
-              src="/images/S1-RS.png" 
+              src="/images/rs6.png" 
               alt="Data Exploration" 
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "cover" }}
@@ -74,7 +82,16 @@ const RetailSales = () => {
         <section className="mb-5">
           <h2>Visualizations</h2>
           <div className="d-flex justify-content-between flex-wrap gap-3">
-            <img src="/images/s3-RS.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+            <img src="/images/rs1.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+          </div>
+          <div className="d-flex justify-content-between flex-wrap gap-3">
+            <img src="/images/rs3.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+          </div>
+          <div className="d-flex justify-content-between flex-wrap gap-3">
+            <img src="/images/rs4.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
+          </div>
+          <div className="d-flex justify-content-between flex-wrap gap-3">
+            <img src="/images/rs5.png" alt="Chart 1" className="img-fluid rounded shadow-sm" style={{ maxHeight: "600px", objectFit: "cover" }} />
           </div>
         </section>
 
@@ -82,13 +99,12 @@ const RetailSales = () => {
         <section className="mb-5">
           <h2>Key Findings</h2>
           <ul className="text-justify">
-            <li>Income and profit vary significantly by continent, with North America and Europe generating the highest revenue and margins, while Africa and South America contribute the least.</li>
-            <li>PCs and Cellphones are the strongest revenue drivers across all continents, consistently producing the highest income and profit each quarter.</li>
-            <li>Accessories, TVs, and Tablets show lower profitability, with tighter margins and higher expense ratios, especially in Q1 across multiple regions.</li>
-            <li>Quarterly trends show steady growth from 2025 to 2027, with Q3 and Q4 typically outperforming Q1 due to seasonal demand and holiday cycles.</li>
-            <li>Margin performance differs by continent, with Europe and North America maintaining stronger profitability, while Asia and South America show more volatility in expenses and net profit.</li>
-            <li>The top 5 countries by profit are, the United States (24.6%), China (12.9%), Germany (12.5%), India (11.6%), and Canada (7.2%). Collectively account for nearly 70% of total global profit, making them the primary drivers of company performance across all continents.
-</li>
+            <li>North America and Europe generate the highest income and profit, while Africa and South America show lower performance.</li>
+            <li>PCs and Cellphones are the strongest revenue drivers across all continents.</li>
+            <li>Accessories, TVs, and Tablets show lower profitability, with tighter margins and higher expense ratios, especially in Q1.</li>
+            <li>Quarterly trends show steady growth from 2025 to 2027, with Q3 and Q4 outperforming Q1 due to seasonal demand and holidays.</li>
+            <li>Margin stability is strongest in Europe and North America; Asia and South America show higher volatility.</li>
+            <li>The top 5 countries by profit are, the United States (24.6%), China (12.9%), Germany (12.5%), India (11.6%), and Canada (7.2%). Collectively account for nearly 70% of total global profit.</li>
           </ul>
         </section>
 
@@ -97,10 +113,10 @@ const RetailSales = () => {
           <h2>Recommendations</h2>
           <ul className="text-justify">
             <li>Monitor quarterly performance trends to understand seasonality and identify periods of strong or weak demand.</li>
-            <li>Compare continent level profitability to highlight regions with stable margins versus those with higher volatility.</li>
+            <li>Compare continent level profitability to highlight stable versus volatile markets.</li>
             <li>Use country level contribution insights to understand where most global profit originates.</li>
-            <li>Focus analysis on high margin product categories (PCs, Cellphones, Apps), as they consistently drive the largest share of global profit.</li>
-            <li>Monitor expense-to-income ratios per continent to identify operational inefficiencies and optimize cost management across product lines.</li>
+            <li>Focus analysis on high margin product categories (PCs, Cellphones, Apps).</li>
+            <li>Track expense-to-income ratios per continent to identify operational inefficiencies and optimize cost management.</li>
           </ul>
         </section>
 
