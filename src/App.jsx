@@ -9,6 +9,7 @@ import VideoGames from "./VideoGames";
 import Header from "./Header";
 import Footer from "./Footer";
 import RetailSales from "./RetailSales";
+import FragranceDB from "./FragranceDB";
 
 
 function App() {
