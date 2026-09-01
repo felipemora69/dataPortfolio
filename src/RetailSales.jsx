@@ -38,9 +38,6 @@ const RetailSales = () => {
             This project was built using Power BI and sample retail data covering product sales, income, and expenses across multiple regions and years. 
             The data model links product categories with financial and geographic metrics, enabling dynamic filtering, drill‑through analysis, and multi‑level comparisons.
           </p>
-          <p>
-            GitHub repository: <a href="https://github.com/felipemora69/Retail_Sales_PowerBI" target="_blank" rel="noopener noreferrer">https://github.com/felipemora69/Retail_Sales_PowerBI</a>
-          </p>
           <div className="mb-3">
             <img 
               src="/images/rs2.png" 

@@ -23,6 +23,7 @@ function App() {
         <Route path="/ic" element={<IC />} />
         <Route path="/retailsales" element={<RetailSales />} />
         <Route path="/videogames" element={<VideoGames />} />
+        <Route path="/fragrancedb" element={<FragranceDB />} />
         <Route path="/header" element={<Header />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>

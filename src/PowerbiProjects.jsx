@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Fragrance Sales & Product Performance Dashboard",
       image: "/images/perfume.png",
       intro: "A Power BI dashboard that highlights fragrance sales performance across brands and categories, using cleaned and standardized data to reveal revenue trends, top products, and opportunities to optimize sales and inventory.",
-      link: "/"
+      link: "/FragranceDB"
     }
   ];
 
