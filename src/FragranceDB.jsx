@@ -42,7 +42,7 @@ const FragranceDB = () => {
           </p>
           <div className="mb-3">
             <img 
-              src="/images/frag6.png" 
+              src="/images/frag7.png" 
               alt="Project Setup" 
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "cover" }}
