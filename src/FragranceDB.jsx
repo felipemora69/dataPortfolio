@@ -76,6 +76,14 @@ const FragranceDB = () => {
               style={{ maxHeight: "300px", objectFit: "cover" }}
             />
           </div>
+          <div className="mb-3">
+            <img 
+              src="/images/frag6.png" 
+              alt="Data Exploration" 
+              className="img-fluid rounded shadow-sm"
+              style={{ maxHeight: "300px", objectFit: "cover" }}
+            />
+          </div>
         </section>
 
         {/* Images Section */}
